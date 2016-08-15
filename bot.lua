@@ -9,42 +9,42 @@ local bot_api_key = ""
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[HI
-/bold text 
-return bold text
+/bold متن 
+متن بولد به شما تحویل داده میشود.
 
-/italic text
-return italic text
+/italic متن
+متن ایتالیک به شما تحویل داده میشود.
 
-/link url text
-markdown link
+/link url متن
+متن لینک دار به شما تحویل داده میشود.
 
-/code text
-return code text
-
-
--channel
-add bot to a channel then use this commands
-
-/boldch @channelusername text
-send bold text to a channel
-
-/italicch @channelusername text
-send italic text to a channel
-
-/linkch @channelusername url text
-send markdown link to a channel
-
-/codech @channelusername text
-send code text to a channel
+/code متن
+متن کد به شما تحویل داده میشود.
 
 
--ohther
+-کانال
+وقتی ربات را درکانال ادمین کنید میتوانید از دستورات زیر استفاده کنید.
 
-sticker to photo 
-just send a sticker
+/boldch @یوزر نیم کانال  text
+فرستادن متن بولد به کانال شما
 
-photo to sticker
-just send a photo
+/italicch @یوزرنیم کانال text
+فرستادن متن ایتالیک به کانال شما
+
+/linkch @یوزرنیم کانال text
+فرستادن متن لینک دار به کانال شما
+
+/codech @یوزرنیم کانال text
+فرستادن متن کدی به کانال شما
+
+
+-و دیگر کاربرد این ربات
+
+استیکر به عکس
+فرستادن استیکر
+
+عکس به استیکر
+فرستادن عکس
 ]]
 -------
 
