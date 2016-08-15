@@ -38,7 +38,7 @@ send markdown link to a channel
 send code text to a channel
 
 
--ohther
+-other
 
 sticker to photo 
 just send a sticker
